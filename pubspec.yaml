@@ -7,6 +7,7 @@ environment:
   sdk: ">=2.18.0 <3.0.0"
 
 dependencies:
+  adaptive_test: ^0.3.2
   audioplayers: ^3.0.0
   bloc: ^8.1.1
   equatable: ^2.0.5
@@ -33,8 +34,38 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  fonts:
+  - family: Roboto
+    fonts:
+      - asset: fonts/Roboto-Black.ttf
+      - asset: fonts/Roboto-BlackItalic.ttf
+      - asset: fonts/Roboto-Bold.ttf
+      - asset: fonts/Roboto-BoldItalic.ttf
+      - asset: fonts/Roboto-Italic.ttf
+      - asset: fonts/Roboto-Light.ttf
+      - asset: fonts/Roboto-LightItalic.ttf
+      - asset: fonts/Roboto-Medium.ttf
+      - asset: fonts/Roboto-MediumItalic.ttf
+      - asset: fonts/Roboto-Regular.ttf
+      - asset: fonts/Roboto-Thin.ttf
+      - asset: fonts/Roboto-ThinItalic.ttf
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Black.ttf
+      - asset: fonts/Poppins-BlackItalic.ttf
+      - asset: fonts/Poppins-Bold.ttf
+      - asset: fonts/Poppins-BoldItalic.ttf
+      - asset: fonts/Poppins-Italic.ttf
+      - asset: fonts/Poppins-Light.ttf
+      - asset: fonts/Poppins-LightItalic.ttf
+      - asset: fonts/Poppins-Medium.ttf
+      - asset: fonts/Poppins-MediumItalic.ttf
+      - asset: fonts/Poppins-Regular.ttf
+      - asset: fonts/Poppins-Thin.ttf
+      - asset: fonts/Poppins-ThinItalic.ttf
 
   assets:
     - assets/audio/
     - assets/images/
     - assets/licenses/poppins/
+    - fonts/
